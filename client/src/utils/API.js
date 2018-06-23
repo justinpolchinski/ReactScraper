@@ -8,9 +8,9 @@ export default {
     return axios.get(`${url}q=${search}&begin_date=${beginDate}0101&end_date=${endDate}1231${apiKey}`);
   },
   // Gets all article
-  // getallarticles: function() {
-  //   return axios.get("/api/article");
-  // },
+  getallarticles: function() {
+    return axios.get("/api/article");
+  },
   // Gets the article with the given id
   // getarticle: function(id) {
   //   return axios.get("/api/article/" + id);
